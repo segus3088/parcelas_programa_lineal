@@ -61,15 +61,15 @@ class GUIFile(Frame):
 		self.vsTiempoSolucion = StringVar()
 		Label(self.parent, textvariable=self.vsTiempoSolucion).grid(row=9, column=2, columnspan=50, sticky=W)
 
-		Label(self.parent, text="Ingresos totales recibidos:").grid(row=10, column=0, sticky=W)
+		Label(self.parent, text="Utilidad de la parcelas:").grid(row=10, column=0, sticky=W)
 		self.vsIngresos = StringVar()
 		Label(self.parent, textvariable=self.vsIngresos).grid(row=10, column=2, columnspan=50, sticky=W)
 
-		Label(self.parent, text="Número de meses de cosecha:").grid(row=11, column=0, sticky=W)
+		Label(self.parent, text="Orden cultivo:").grid(row=11, column=0, sticky=W)
 		self.vsNumeroMesesCosecha = StringVar()
 		Label(self.parent, textvariable=self.vsNumeroMesesCosecha).grid(row=11, column=2, columnspan=50, sticky=W)
 
-		Label(self.parent, text="Meses de cosecha:").grid(row=12, column=0, sticky=W)
+		Label(self.parent, text="---:").grid(row=12, column=0, sticky=W)
 		self.vsMesesCosecha = StringVar()
 		Label(self.parent, textvariable=self.vsMesesCosecha).grid(row=12, column=2, columnspan=50, sticky=W)
 
